@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'mywidget.dart';
 
 void main() {
   runApp(const MaterialApp(home: MyApp()));
@@ -21,7 +22,9 @@ class _State extends State<MyApp> {
         padding: const EdgeInsets.all(32.0),
         child: Center(
           child: Column(
-            children: <Widget>[Text("Hello World")],
+            children: <Widget>[Text("Hello World"),
+            MyWidget()
+            ],
           ),
         ),
       ),
