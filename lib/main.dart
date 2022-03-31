@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mywidget.dart';
+import 'intermediate/customwidget/mywidget.dart';
 
 void main() {
   runApp(const MaterialApp(home: MyApp()));
